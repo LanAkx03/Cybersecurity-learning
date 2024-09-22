@@ -1,0 +1,1 @@
+You’ve seen a specific format throughout these code examples when it comes to indentations. After an if statement, all the code that comes afterward needs to be indented. Otherwise, Python won’t distinguish the difference between the statement and the code to execute.

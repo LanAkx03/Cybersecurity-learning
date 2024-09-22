@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"8e8df0ae9ee2aa3e","x":-125,"y":-180,"width":250,"height":60,"type":"text","text":"Customer"},
+		{"id":"a511e60b06ea85b2","x":-125,"y":-100,"width":250,"height":140,"type":"text","text":"**State (variables)**\nname\nphone_number\nbank_account"},
+		{"id":"8930dc515850d96e","x":-125,"y":60,"width":250,"height":100,"type":"text","text":"**Behavior (methods)**\nbill_customer(cost)\nrefund_customer(amount)"}
+	],
+	"edges":[]
+}

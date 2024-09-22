@@ -1,0 +1,1 @@
+When you’re organizing anything, it’s best to have a single set place for every item because you know that will make it easier to find. It’s the same when writing functions. You want to have each one be responsible for a single function - and nothing more.

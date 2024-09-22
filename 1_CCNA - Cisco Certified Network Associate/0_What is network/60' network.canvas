@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"13b102204af3b055","type":"text","text":"1960s","x":-300,"y":-940,"width":250,"height":60},
+		{"id":"cebd3d725d56b59a","type":"file","file":"Images/Personnal Computer.png","x":-360,"y":-820,"width":120,"height":119},
+		{"id":"641520ab072ea6a5","type":"text","text":"1969's - ARPANET (DOD)","x":-320,"y":-580,"width":250,"height":60},
+		{"id":"9339aab70ccd942d","type":"file","file":"Images/Personnal Computer.png","x":-110,"y":-820,"width":120,"height":119},
+		{"id":"511d99538e954d1f","type":"file","file":"Images/Personnal Computer.png","x":-360,"y":-460,"width":120,"height":119},
+		{"id":"94f9a10e18db3519","type":"file","file":"Images/Personnal Computer.png","x":-130,"y":-460,"width":120,"height":119},
+		{"id":"41713be64cbfe15b","type":"text","text":"Packet switching","x":-300,"y":-290,"width":250,"height":50},
+		{"id":"c758c14a913dc166","type":"file","file":"Images/Personnal Computer.png","x":59,"y":-372,"width":83,"height":82},
+		{"id":"bafacba381f9e292","type":"file","file":"Images/Switch symb..png","x":160,"y":-265,"width":85,"height":86},
+		{"id":"e9773e0624db5341","type":"file","file":"Images/Personnal Computer.png","x":267,"y":-372,"width":83,"height":82},
+		{"id":"a50ee342ad26849f","type":"file","file":"Images/Personnal Computer.png","x":267,"y":-160,"width":83,"height":82},
+		{"id":"8a699a2531fc02a2","type":"file","file":"Images/Personnal Computer.png","x":59,"y":-160,"width":83,"height":82},
+		{"id":"bc6dc6d36e83b2a6","type":"text","text":"IBM - 1st network (Proprietary)","x":59,"y":-460,"width":291,"height":50},
+		{"id":"576825653d1caba8","type":"text","text":"But network can't speak together","x":80,"y":-40,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"0eb6a1b3e24c72b0","fromNode":"511d99538e954d1f","fromSide":"right","toNode":"94f9a10e18db3519","toSide":"left"},
+		{"id":"6b38dd8e3a0bd294","fromNode":"94f9a10e18db3519","fromSide":"left","toNode":"511d99538e954d1f","toSide":"right"},
+		{"id":"dac90bf3958a0ed6","fromNode":"8a699a2531fc02a2","fromSide":"right","toNode":"bafacba381f9e292","toSide":"left"},
+		{"id":"715fb163610f4815","fromNode":"a50ee342ad26849f","fromSide":"left","toNode":"bafacba381f9e292","toSide":"right"},
+		{"id":"6316d208a76a8d25","fromNode":"bafacba381f9e292","fromSide":"left","toNode":"8a699a2531fc02a2","toSide":"right"},
+		{"id":"a967e935cf7fbff3","fromNode":"bafacba381f9e292","fromSide":"right","toNode":"a50ee342ad26849f","toSide":"left"},
+		{"id":"f9fced0f1cb04b2b","fromNode":"c758c14a913dc166","fromSide":"right","toNode":"bafacba381f9e292","toSide":"left"},
+		{"id":"6215d836cb7d5243","fromNode":"bafacba381f9e292","fromSide":"left","toNode":"c758c14a913dc166","toSide":"right"},
+		{"id":"49fde35deb95ee6d","fromNode":"bafacba381f9e292","fromSide":"right","toNode":"e9773e0624db5341","toSide":"left"},
+		{"id":"370634f7f4027dd2","fromNode":"e9773e0624db5341","fromSide":"left","toNode":"bafacba381f9e292","toSide":"right"}
+	]
+}

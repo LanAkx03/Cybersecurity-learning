@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"795fbb89880c4363","type":"group","x":-520,"y":-140,"width":1034,"height":401,"color":"3","label":"Tier 1 - ACCESS LAYER"},
+		{"id":"59956caf1d38a085","type":"group","x":-340,"y":-500,"width":723,"height":260,"color":"6","label":"Tier 2 - DISTRIBUTION (aggregation) LAYER"},
+		{"id":"8a643b81770e891c","type":"text","text":"2-TIER ARCHITECTURE","x":-529,"y":-859,"width":250,"height":60},
+		{"id":"00fb58c3985a8273","type":"text","text":"L3","x":-25,"y":-920,"width":90,"height":50},
+		{"id":"1dde5f99ce31c68f","type":"file","file":"Images/Router symb..png","x":-19,"y":-859,"width":81,"height":82},
+		{"id":"153249ba4475be2a","type":"text","text":"IF this cable broke, all the networks going DOWN","x":59,"y":-720,"width":250,"height":80,"color":"1"},
+		{"id":"8b95919597edb60d","type":"file","file":"Images/noun-multi-layer-switch-1630867 1.png","x":-35,"y":-400,"width":119,"height":119},
+		{"id":"92b75ff452f26905","type":"text","text":"Multilayer (L3) switch","x":-92,"y":-480,"width":226,"height":50},
+		{"id":"7216571e7dfa6c16","type":"file","file":"Images/Personnal Computer.png","x":-479,"y":-87,"width":54,"height":53},
+		{"id":"6e0b0d1403ed52f3","type":"file","file":"Images/Personnal Computer.png","x":-378,"y":-85,"width":54,"height":53},
+		{"id":"bc3f27c1925c702f","type":"file","file":"Images/Personnal Computer.png","x":-500,"y":33,"width":54,"height":53},
+		{"id":"678f3f0b5135db13","type":"file","file":"Images/Switch symb..png","x":-25,"y":40,"width":64,"height":65},
+		{"id":"11554f2324fb476c","type":"file","file":"Images/Personnal Computer.png","x":-47,"y":181,"width":54,"height":53},
+		{"id":"ae6f3ee0b47a10bc","type":"text","text":"L2","x":39,"y":40,"width":90,"height":50},
+		{"id":"47b5e774f22aebe4","type":"file","file":"Images/Personnal Computer.png","x":59,"y":159,"width":54,"height":53},
+		{"id":"9501124ec4f78d40","type":"file","file":"Images/Server1.png","x":-164,"y":96,"width":60,"height":60},
+		{"id":"020ff043c02b34a6","type":"text","text":"L2","x":-369,"y":118,"width":90,"height":50},
+		{"id":"2567cb6bef213f7c","type":"file","file":"Images/Personnal Computer.png","x":286,"y":188,"width":54,"height":53},
+		{"id":"027b90869bff2a2a","type":"file","file":"Images/Switch symb..png","x":-383,"y":53,"width":64,"height":65},
+		{"id":"fad123a8ede97a17","type":"file","file":"Images/Personnal Computer.png","x":-482,"y":133,"width":54,"height":53},
+		{"id":"2caeacc2e7b48ae2","type":"text","text":"L2","x":404,"y":16,"width":90,"height":50},
+		{"id":"7472f47734274dc8","type":"file","file":"Images/Switch symb..png","x":340,"y":8,"width":64,"height":65},
+		{"id":"de0b97f3b84f0672","type":"file","file":"Images/Personnal Computer.png","x":392,"y":166,"width":54,"height":53}
+	],
+	"edges":[
+		{"id":"4abfba46fdc185c0","fromNode":"7216571e7dfa6c16","fromSide":"bottom","toNode":"027b90869bff2a2a","toSide":"top"},
+		{"id":"384699b792a872dd","fromNode":"6e0b0d1403ed52f3","fromSide":"bottom","toNode":"027b90869bff2a2a","toSide":"top"},
+		{"id":"8e9a291252953b1a","fromNode":"bc3f27c1925c702f","fromSide":"right","toNode":"027b90869bff2a2a","toSide":"left"},
+		{"id":"e4091d336591e8ce","fromNode":"fad123a8ede97a17","fromSide":"right","toNode":"027b90869bff2a2a","toSide":"left"},
+		{"id":"9457d16a1dcfb2e2","fromNode":"47b5e774f22aebe4","fromSide":"top","toNode":"678f3f0b5135db13","toSide":"bottom"},
+		{"id":"eb6517ec553f9171","fromNode":"11554f2324fb476c","fromSide":"top","toNode":"678f3f0b5135db13","toSide":"bottom"},
+		{"id":"d37167fe5be2c988","fromNode":"9501124ec4f78d40","fromSide":"right","toNode":"678f3f0b5135db13","toSide":"left"},
+		{"id":"08bfbd98831a74c0","fromNode":"2567cb6bef213f7c","fromSide":"top","toNode":"7472f47734274dc8","toSide":"bottom"},
+		{"id":"c2dc9e30f9288b61","fromNode":"de0b97f3b84f0672","fromSide":"top","toNode":"7472f47734274dc8","toSide":"bottom"},
+		{"id":"fda73741c2bd0988","fromNode":"027b90869bff2a2a","fromSide":"right","toNode":"8b95919597edb60d","toSide":"left"},
+		{"id":"8142d6c54d76b031","fromNode":"678f3f0b5135db13","fromSide":"top","toNode":"8b95919597edb60d","toSide":"bottom"},
+		{"id":"43a4f4977a9c2830","fromNode":"7472f47734274dc8","fromSide":"left","toNode":"8b95919597edb60d","toSide":"right"},
+		{"id":"30a78bd0db0e9d85","fromNode":"8b95919597edb60d","fromSide":"top","toNode":"1dde5f99ce31c68f","toSide":"bottom"}
+	]
+}

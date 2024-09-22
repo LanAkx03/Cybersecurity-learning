@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"dce8c372618f02fa","type":"file","file":"Images/Private network.png","x":-940,"y":-423,"width":440,"height":167},
+		{"id":"3c0921b4835ce0b8","type":"file","file":"Images/Network1.png","x":-440,"y":-620,"width":251,"height":211,"color":"1"},
+		{"id":"2f253ba3e98d0cc8","type":"file","file":"Images/Router connexion1.png","x":-369,"y":-380,"width":110,"height":81},
+		{"id":"475e2dcb883ad355","type":"file","file":"Images/Network1.png","x":-440,"y":-256,"width":251,"height":211,"color":"1"},
+		{"id":"6ca20e0e244dfafa","type":"file","file":"Images/Network1.png","x":-120,"y":-620,"width":251,"height":211,"color":"1"},
+		{"id":"bb0cc94d73b06158","type":"file","file":"Images/Router connexion1.png","x":-49,"y":-380,"width":110,"height":81},
+		{"id":"11d80dc827b15cfe","type":"file","file":"Images/Network1.png","x":-119,"y":-245,"width":251,"height":211,"color":"1"},
+		{"id":"210a6ad1e0376218","type":"file","file":"Images/Router connexion1.png","x":251,"y":-380,"width":110,"height":81},
+		{"id":"67c79d83362189b1","type":"file","file":"Images/Server1.png","x":220,"y":-245,"width":171,"height":171,"color":"3"},
+		{"id":"b61a58f20d3b46bd","type":"file","file":"Images/Server1.png","x":220,"y":-580,"width":171,"height":171,"color":"3"},
+		{"id":"7b06e4e9afd2a833","type":"text","text":"TARGET","x":420,"y":-369,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"ccc18024500e12cf","fromNode":"dce8c372618f02fa","fromSide":"right","toNode":"2f253ba3e98d0cc8","toSide":"left"},
+		{"id":"bfc46ba6986f8ebb","fromNode":"2f253ba3e98d0cc8","fromSide":"top","toNode":"3c0921b4835ce0b8","toSide":"bottom"},
+		{"id":"444b8f4821dd26bf","fromNode":"2f253ba3e98d0cc8","fromSide":"bottom","toNode":"475e2dcb883ad355","toSide":"top"},
+		{"id":"eaccccb3a2507bcf","fromNode":"bb0cc94d73b06158","fromSide":"top","toNode":"6ca20e0e244dfafa","toSide":"bottom"},
+		{"id":"71726bceca4243de","fromNode":"bb0cc94d73b06158","fromSide":"bottom","toNode":"11d80dc827b15cfe","toSide":"top"},
+		{"id":"911a09ea35791506","fromNode":"2f253ba3e98d0cc8","fromSide":"right","toNode":"bb0cc94d73b06158","toSide":"left"},
+		{"id":"cb96729c83d5a4ad","fromNode":"210a6ad1e0376218","fromSide":"top","toNode":"b61a58f20d3b46bd","toSide":"bottom"},
+		{"id":"ba459f5376bc41bb","fromNode":"210a6ad1e0376218","fromSide":"bottom","toNode":"67c79d83362189b1","toSide":"top"},
+		{"id":"cf6a2713822ab89e","fromNode":"bb0cc94d73b06158","fromSide":"right","toNode":"210a6ad1e0376218","toSide":"left"},
+		{"id":"15e68531cb57aae3","fromNode":"210a6ad1e0376218","fromSide":"right","toNode":"7b06e4e9afd2a833","toSide":"left"}
+	]
+}

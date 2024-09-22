@@ -1,0 +1,1 @@
+A dictionary is a data structure that stores data in **key-value pairs.**  An example of a key and a value is `campaign_manager: "Spencer Smith"` where  `campaign_manager`  is the **key,** and  `Spencer Smith`  is the **value.**
